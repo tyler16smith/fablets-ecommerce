@@ -3,24 +3,20 @@ import Link from 'next/link';
 
 const imagesInfo = [
   {
-    image: '/images/insta/1.png',
+    image: '/images/tablets.png',
     translateRatio: -50
   },
   {
-    image: '/images/insta/2.jpg',
+    image: '/images/toothbrush-1.png',
     translateRatio: 30
   },
   {
-    image: '/images/insta/3.jpg',
+    image: '/images/toothbrush-2.png',
     translateRatio: 0
   },
   {
-    image: '/images/insta/4.jpg',
-    translateRatio: -20
-  },
-  {
-    image: '/images/insta/5.jpg',
-    translateRatio: -80
+    image: '/images/finger_print.png',
+    translateRatio: 0
   }
 ];
 
