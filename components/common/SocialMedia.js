@@ -3,15 +3,15 @@ import Link from 'next/link';
 
 const imagesInfo = [
   {
-    image: '/images/tablets.png',
+    image: '/images/tablets.jpg',
     translateRatio: -50
   },
   {
-    image: '/images/toothbrush-1.png',
+    image: '/images/toothbrush-1.jpg',
     translateRatio: 30
   },
   {
-    image: '/images/toothbrush-2.png',
+    image: '/images/toothbrush-2.jpg',
     translateRatio: 0
   },
   {
