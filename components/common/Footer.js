@@ -14,6 +14,7 @@ const Footer = () => (
                 href="https://fablets.netlify.app"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
+                rel="noreferrer"
               >
                 Home
               </a>
@@ -21,6 +22,7 @@ const Footer = () => (
                 href="https://fablets.netlify.app/collection"
                 className="d-block font-color-medium"
                 target="_blank"
+                rel="noreferrer"
               >
                 Products
               </a>

@@ -8,7 +8,7 @@ export default function HomeBanner() {
         className="font-size-display1 mt-5 text-center mx-auto text-uppercase"
         style={{ maxWidth: '53rem' }}
       >
-        Track your kids' brushing with our state of the art finger-print dispenser
+        Track your kid&apos;s brushing with our state of the art finger-print dispenser
       </p>
       <div className="d-flex align-items-center justify-content-center mt-3 mb-5">
         <Link href="/about">
