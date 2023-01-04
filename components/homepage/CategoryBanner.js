@@ -8,24 +8,24 @@ class CategoryBanner extends Component {
   render() {
     const categories = [
       {
-        "slug": "fablets",
-        "name": "Fablets",
-        "meta": {
-          "image": "/images/tablets.jpg"
+        slug: 'fablets',
+        name: 'Fablets',
+        meta: {
+          image: '/images/tablets.jpg'
         }
       },
       {
-        "slug": "dispenser",
-        "name": "Fablet Dispenser",
-        "meta": {
-          "image": "/images/finger_print.png"
+        slug: 'dispenser',
+        name: 'Fablet Dispenser',
+        meta: {
+          image: '/images/finger_print.png'
         }
       },
       {
-        "slug": "mobile-app",
-        "name": "Mobile App",
-        "meta": {
-          "image": "/images/mobile_app.png"
+        slug: 'mobile-app',
+        name: 'Mobile App',
+        meta: {
+          image: '/images/mobile_app.png'
         }
       }
     ]
