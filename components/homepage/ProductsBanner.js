@@ -6,7 +6,62 @@ import { connect } from 'react-redux';
 
 class ProductsBanner extends Component {
   render() {
-    const { products } = this.props;
+    const products = [
+      {
+        "product": {
+          "name": "Fablets",
+          "description": "Kid-friendly, mess-free flavored toothpaste tablets",
+          "price": "10.00",
+          "category_id": "categories[0].id"
+        },
+        "variant": [
+          {
+            "name": "Quantity",
+            "options": [
+              {
+                "description": "30",
+                "price": "6.00"
+              },
+              {
+                "description": "60",
+                "price": "10.00"
+              },
+              {
+                "description": "100",
+                "price": "14.00"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": {
+          "name": "Fablet Dispenser",
+          "description": "Powered by finger-print bio-technology, the fablet dispenser links to the mobile app to give you a holistic brushing record.",
+          "price": "30.00",
+          "category_id": "categories[1].id"
+        },
+        "variant": [
+          {
+            "name": "Size",
+            "options": [
+              {
+                "description": "Small",
+                "price": "25.00"
+              },
+              {
+                "description": "Medium",
+                "price": "30.00"
+              },
+              {
+                "description": "Large",
+                "price": "35.00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
 
     return (
       <div className="custom-container py-5 my-5">

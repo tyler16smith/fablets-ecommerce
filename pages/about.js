@@ -25,7 +25,7 @@ const About = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/images/toothbrush-1.jpg" alt="Fablets origin story"/>
+              <img src="/cjs-illustration.svg" alt="Commerce.js illustration"/>
             </div>
           </div>
         </div>

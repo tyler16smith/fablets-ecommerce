@@ -6,7 +6,29 @@ import { connect } from 'react-redux';
 class CategoryBanner extends Component {
 
   render() {
-    const { categories } = this.props;
+    const categories = [
+      {
+        "slug": "fablets",
+        "name": "Fablets",
+        "meta": {
+          "image": "/images/tablets.jpg"
+        }
+      },
+      {
+        "slug": "dispenser",
+        "name": "Fablet Dispenser",
+        "meta": {
+          "image": "/images/finger_print.png"
+        }
+      },
+      {
+        "slug": "mobile-app",
+        "name": "Mobile App",
+        "meta": {
+          "image": "/images/mobile_app.png"
+        }
+      }
+    ]
 
     return (
       <div className="bg-brand300 py-5 collection-banner">

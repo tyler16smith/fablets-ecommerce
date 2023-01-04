@@ -39,7 +39,7 @@ export default function HeroSection() {
               <p className="font-size-display5 font-family-secondary mb-4 text-center hero-header">
                 Flavored toothpaste tablets for kids
               </p>
-              <p className="text-transform-uppercase font-size-title mb-5 hero-subheader">
+              <p className="text-transform-uppercase text-center font-size-title mb-5 hero-subheader">
                 Mess-free, climate-friendly, kid-loved
               </p>
               <Link href="/collection">
